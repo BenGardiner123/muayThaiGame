@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 
 namespace muayThaiGame
 {
@@ -20,89 +18,31 @@ namespace muayThaiGame
         {
         }
 
-        ///pick fighter - coose name and speciality
+        public void mainMenu(){
 
-        //choose your gym and trainer
+        }  
 
-        ///choose how many rounds
+        public void createFighterMenu(){
 
-        ///fight
-
-
-    }
-
-    class Fighter
-    {
-        public string firstName;
-        public string lastName;
-        public string weight;
-        public string height;
-        public int power;
-        public int kick;
-        public int punch;
-        public int knee;
-        public int elbow;
-        public int clinch;
-        Random skillGenerator = new System.Random();
-        public List<string> fightersNameLibrary;
-
-        ////-.-.-.-.-.-.-.-.-.-.-.-.////
-
-        public Fighter()
-        {
-        }
+        }  
 
 
+        public void chooseGymandTrainerMenu(){
 
-        public void randomSkillGenerator()
-        {
+        }  
 
-        }
+        public void fightCondtitionsMenu(){
 
-        public string fighterNameGenerator()
-        {
-            return "";
-        }
+        }  
 
 
+        public void letsActuallyFight(){
+
+        }  
 
 
+     
 
-    }
-
-    class Gym
-    {
-        public string gymName;
-        public int trainerSkillRating;
-
-        ////-.-.-.-.-.-.-.-.-.-.-.-.////    
-
-        public Gym()
-        {
-        }
-
-        public void trainFighter()
-        {
-
-        }
-
-
-    }
-
-    class Match
-    {
-
-        public List<Fighter> matchActual; 
-        ////-.-.-.-.-.-.-.-.-.-.-.-.////
-
-        public Match()
-        {
-        }
-
-        public void FightActual()
-        {
-
-        }
 
     }
 
