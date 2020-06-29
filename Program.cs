@@ -14,6 +14,23 @@ namespace muayThaiGame
         }
     }
 
+    class Menu
+    {
+        public Menu()
+        {
+        }
+
+        ///pick fighter - coose name and speciality
+
+        //choose your gym and trainer
+
+        ///choose how many rounds
+
+        ///fight
+
+
+    }
+
     class Fighter
     {
         public string firstName;
@@ -27,11 +44,15 @@ namespace muayThaiGame
         public int elbow;
         public int clinch;
         Random skillGenerator = new System.Random();
+        public List<string> fightersNameLibrary;
+
         ////-.-.-.-.-.-.-.-.-.-.-.-.////
 
         public Fighter()
         {
         }
+
+
 
         public void randomSkillGenerator()
         {
@@ -49,14 +70,14 @@ namespace muayThaiGame
 
     }
 
-    class Trainer
+    class Gym
     {
-        public string name;
-        public int skillRating;
+        public string gymName;
+        public int trainerSkillRating;
 
         ////-.-.-.-.-.-.-.-.-.-.-.-.////    
 
-        public Trainer()
+        public Gym()
         {
         }
 
@@ -70,6 +91,7 @@ namespace muayThaiGame
 
     class Match
     {
+
         public List<Fighter> matchActual; 
         ////-.-.-.-.-.-.-.-.-.-.-.-.////
 
@@ -77,7 +99,11 @@ namespace muayThaiGame
         {
         }
 
-        
+        public void FightActual()
+        {
+
+        }
+
     }
 
 
