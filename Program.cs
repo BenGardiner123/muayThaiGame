@@ -86,7 +86,7 @@ namespace muayThaiGame
 
         public void createFighterMenu()
         {
-            
+
             bool menuCheck = false; // again set up the exit trigger
             
             while (!menuCheck)
@@ -136,8 +136,6 @@ namespace muayThaiGame
 
             }
         }
-
-        
 
 
         public void chooseGymandTrainerMenu(){

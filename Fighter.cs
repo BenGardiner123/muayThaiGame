@@ -16,13 +16,29 @@ namespace muayThaiGame
         public int elbow;
         public int clinch;
         Random skillGenerator = new System.Random();
-        public List<string> fightersNameLibrary;
-        public List<string> fightRecord; // wins and losses stored here
+        public List<string, int> fightersAttribute;
 
-        ////-.-.-.-.-.-.-.-.-.-.-.-.////
+        public List<string, string> fightersNameLibrary;
+        public List<string, int> fightRecord; // wins and losses stored here
+
+        ////-.-.-.-.-.constructor-.-.-.-.-.-.-.////
 
         public Fighter()
         {
+            this.firstName = firstName;
+         lastName;
+        height;
+        power;
+        kick;
+        punch;
+        knee;
+        elbow;
+        clinch;
+        Random skillGenerator = new System.Random();
+        public List<string, int> fightersAttribute;
+
+        public List<string, string> fightersNameLibrary;
+        public List<string, int> fightRecord;
         }
 
 
@@ -37,7 +53,21 @@ namespace muayThaiGame
             return "";
         }
 
+        
+        public static createFighter()
+        {
 
+        }
+
+        public void viewFighterAttributes()
+        {
+
+        }
+
+        public void viewFighterRecord()
+        {
+
+        }
 
 
 
