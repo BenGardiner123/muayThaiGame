@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "COtgcnns0nf2rF4EObxlBu3HEuKflv/AnOFfk4MWf437lPNcCrBmkn+3mLuM4gYLrrQ66T5JXIc8i8oO3nEZOA==",
+  "dgSpecHash": "Xg6FuOBTVLgtXO4O4jrgNFoGJ6pe6E6Bm8oAHIw6wfTVojdKzH7c3AzNf8fUQ0E66+mmEcAExz18VIBNd13zRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cooler Master\\Documents\\swinburne\\muayThaiGame\\muayThaiGame.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Desktop\\muayThaiGame\\muayThaiGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

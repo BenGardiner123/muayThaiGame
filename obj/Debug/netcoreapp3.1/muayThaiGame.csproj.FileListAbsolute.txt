@@ -1,0 +1,4 @@
+C:\Users\User\Desktop\muayThaiGame\obj\Debug\netcoreapp3.1\muayThaiGame.csprojAssemblyReference.cache
+C:\Users\User\Desktop\muayThaiGame\obj\Debug\netcoreapp3.1\muayThaiGame.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\muayThaiGame\obj\Debug\netcoreapp3.1\muayThaiGame.AssemblyInfo.cs
+C:\Users\User\Desktop\muayThaiGame\obj\Debug\netcoreapp3.1\muayThaiGame.csproj.CoreCompileInputs.cache

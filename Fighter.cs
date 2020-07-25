@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace muayThaiGame
 {
-    class Fighter
+    public class Fighter
     {
         public string firstName;
         public string lastName;
@@ -16,6 +16,8 @@ namespace muayThaiGame
         public int elbow;
         public int clinch;
         Random skillGenerator = new System.Random();
+        Random nameGenerator = new Random();  
+
         public List<KeyValuePair<string, int>> fightersAttribute;
         public List<string> fighterstFirstNameLibrary;
         public List<string> fighterstLastNameLibrary;
@@ -75,31 +77,34 @@ namespace muayThaiGame
             Console.WriteLine("Please enter your fighters last name...");
             string userLastName = Console.ReadLine();
             
-            userFirstName= this.firstName;
-            userLastName = this.lastName;
+            Fighter Fighter = new Fighter(userFirstName, userLastName);
            
+            Console.WriteLine($" Your fighters name is: {userFirstName } { userLastName}" );
+
         }
 
         public void randomNameGenerator()
         {
-                fighterstFirstNameLibrary.AddRange(new string[]
-                {
-                "Jenna Doe",
-                "Another Doe"
-                });
-           
+               int randomFirstNameIndex = nameGenerator.Next(fighterstFirstNameLibrary.Count);
+               int rnadomlastNAmeIndex =  nameGenerator.Next(fighterstLastNameLibrary.Count);
+
+               string randomFirstName = (fighterstFirstNameLibrary[randomFirstNameIndex]);
+               string randomLastName = (fighterstLastNameLibrary[rnadomlastNAmeIndex]);
+
+            Fighter Fighter = new Fighter(randomFirstName, randomLastName);
         }
 
         
         public void createFighter()
         {
+           
             bool menuCheck = false; // again set up the exit trigger
            
             while (!menuCheck)
             {
                 
-                Console.WriteLine("1. Choose you fighters name");
-                Console.WriteLine("2. Auto select a name");
+                Console.WriteLine("1. Choose you own fighters name");
+                Console.WriteLine("2. Auto generate a name");
                 Console.WriteLine("3. Generate you abilities");
                 Console.WriteLine("4. Exit to main menu");
                 string userChoice = Console.ReadLine(); // need to try parse
@@ -114,23 +119,23 @@ namespace muayThaiGame
                     }
                     if (result == 1)
                     {
-                        Fighter f1 = new Fighter("", "");
                         userFighterName();
-
+                        result = 3;
 
                     }
                     if (result == 2)
                     {
-                        ();
+                        randomNameGenerator();
+
                     }
                     else if (result == 3)
                     {
-                        viewFighterRecord();
+                        randomSkillGenerator();
                     }
                     else if (result == 4)
                     {
                         menuCheck = true;
-                        mainMenu();
+                        mainMenu.mainMenu();
                     }
 
 

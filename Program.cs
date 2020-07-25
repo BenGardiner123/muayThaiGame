@@ -8,7 +8,7 @@ namespace muayThaiGame
     {
         static void Main(string[] args)
         {
-            
+            Fighter f1 = new Fighter();
 
 
         }
